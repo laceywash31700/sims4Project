@@ -1,8 +1,15 @@
 import os
 
 creator_name = 'Din0saursN5pace'
+# mods_folder = os.path.expanduser(
+#     os.path.join('~', 'Documents', 'modsToExtract', 'moveobjects')
+# )
+
 mods_folder = os.path.expanduser(
-    os.path.join('~', 'Documents', 'Electronic Arts', 'The Sims 4', 'Mods')
+    os.path.join('~', 'Documents', 'My Script Mods', 'moveobjects')
 )
 
-game_folder = os.path.join('D:', 'The Sims 4')
+# Full path to the script file
+script_file_path = os.path.join(mods_folder, 'Tmex-AlwaysMOO.ts4script')
+
+# Now you can use 'mods_folder' and 'script_file_path' as needed in your script
