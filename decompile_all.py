@@ -5,7 +5,7 @@ ea_folder = 'My Script Mods'
 if not os.path.exists(ea_folder):
     os.mkdir(ea_folder)
 
-game_folder = r'C:\Users\Owner\PycharmProjects\Sims 4 Python Script Workspace\My Script Mods\moveobjects'
+game_folder = r'C:\Users\Owner\PycharmProjects\Sims 4 Python Script Workspace\My Script Mods\move objects'
 gameplay_folder_data = os.path.join(game_folder, 'Tmex-AlwaysMOO.ts4script')
 # gameplay_folder_data = os.path.join(game_folder, 'Data', 'Simulation', 'Gameplay')
 # gameplay_folder_game = os.path.join(game_folder, 'Game', 'Bin', 'Python')
